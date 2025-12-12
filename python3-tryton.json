@@ -2,7 +2,7 @@
     "name": "python3-tryton",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==7.6.4\" --no-build-isolation"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"tryton[calendar]==7.6.5\" --no-build-isolation"
     ],
     "sources": [
         {
@@ -12,8 +12,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/40/d9/412da520de9052b7e80bfc810ec10f5cb3dbfa4aa3e23c2820dc61cdb3d0/pycairo-1.28.0.tar.gz",
-            "sha256": "26ec5c6126781eb167089a123919f87baa2740da2cca9098be8b3a6b91cc5fbc"
+            "url": "https://files.pythonhosted.org/packages/22/d9/1728840a22a4ef8a8f479b9156aa2943cd98c3907accd3849fb0d5f82bfd/pycairo-1.29.0.tar.gz",
+            "sha256": "f3f7fde97325cae80224c09f12564ef58d0d0f655da0e3b040f5807bd5bd3142"
         },
         {
             "type": "file",
@@ -27,8 +27,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/80/ce/711f0d85976c820294411092b3fb9da43245910f1fb2de12bc93973a049b/tryton-7.6.4-py3-none-any.whl",
-            "sha256": "ecc2c3d11b9fa89d52b879d508944c43dd0200d52925d3b828514dd871c04e92"
+            "url": "https://files.pythonhosted.org/packages/8b/94/3291fe35abbc2daeb0d3d9af120bcb06dee687eb484d036eab34b707912d/tryton-7.6.5-py3-none-any.whl",
+            "sha256": "edde1b5213adaccdf55dbca5fd8f90ef602ce187f18a5480cdc39d96ad6fadb3"
         }
     ]
 }
